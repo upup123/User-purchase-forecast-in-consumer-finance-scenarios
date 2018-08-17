@@ -1,5 +1,5 @@
 # User-purchase-forecast-in-consumer-finance-scenarios
-### 项目背景：比赛-2018消费金融场景下的用户购买预测
+### [项目背景：比赛-2018消费金融场景下的用户购买预测](https://www.datafountain.cn/competitions/287/details/rule)
 ### 运行说明：
 1. create_fea.py：  
 输入：data下的原始数据；  
