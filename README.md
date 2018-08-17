@@ -1,6 +1,6 @@
 # User-purchase-forecast-in-consumer-finance-scenarios
-项目背景：比赛-2018消费金融场景下的用户购买预测
-运行说明：
+#项目背景：比赛-2018消费金融场景下的用户购买预测
+##运行说明：
 1.create_fea.py：输入文件是data下的原始数据；
                 功能是，进行特征工程；
                  输出是2个dataframe:用于训练的train_fea_df和用于测试的test_fea_df
