@@ -7,7 +7,7 @@ from sklearn.linear_model import RidgeCV
 import lightgbm as lgb
 from sklearn.metrics import roc_auc_score
 import operator
-def stacking_train(X_dev,y_dev,X_test,test_userid,seed):
+def blending_train(X_dev,y_dev,X_test,test_userid,seed):
 	np.random.seed(seed)
 	print('准备模型')
 	n_flods=5
@@ -79,4 +79,4 @@ if __name__=='__main__':
 	
     X_test = test_fea_df[col].values
     test_userid = test_fea_df.pop('USRID')
-    result = stacking_train(X_dev,y_dev,X_test,test_userid,seed)
+    result = blending_train(X_dev,y_dev,X_test,test_userid,seed)
